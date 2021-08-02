@@ -10,6 +10,10 @@
   </head>
 
   <body>
+  <div id="navigationbar"> 
+  <%= link_to 'Inicio', root_path %> &nbsp;
+  <%= link_to 'Preguntas', ask_path %> &nbsp;
+  </div>
     <%= yield %>
   </body>
 </html>
